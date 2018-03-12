@@ -4,7 +4,7 @@
 
 const fs = require('fs');
 const path = require('path');
-const canvas = new Canvas(0, 0);
+const Canvas = require('canvas');
 const commander = require('commander');
 const version = require('./package.json').version;
 
